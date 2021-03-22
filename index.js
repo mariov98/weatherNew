@@ -1,6 +1,6 @@
 const express = require('express');
 const app = express();
-var axios = require("axios").default;
+var axios = require("axios");
 const handlebars = require('express-handlebars');
 const bodyParser = require('body-parser');
 const path = require('path');
